@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     # 3rd Party
     'rest_framework',  # new
     'corsheaders',  # new
-    'rest_framework.authtoken',  # new - Adds token table in admin
+    'rest_framework.authtoken',  # new - Adds token table in admin, it also generates the token
     'allauth',  # new
     'allauth.account',  # new
     'allauth.socialaccount',  # new
